@@ -4,19 +4,52 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: gray;
+    background-color: #24252A;
 }
 
 li, a, button{
-    font-family: Montserrat, sans-serif;
+    font-family: "Noto Color Emoji", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: white;
+    color: #edf0f1;
     text-decoration: none;
 }
-header{
+.Top-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 20%;
+    padding: 40px 10%;
+}
+
+.LOGO{
+    cursor: pointer;
+}
+
+.Nav_Links{
+    list-style: none;
+}
+.Nav_Links li{
+    display: inline-block;
+    padding: 0px 3px;
+}
+
+.Nav_Links li a{
+    transition: all 0.3s ease 0.07s;
+}
+
+.Nav_Links li a:hover{
+    color: #18A8D8;
+}
+
+button{
+    padding: 8px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0.07s;
+}
+
+button:hover{
+    background-color: rgba(0, 136, 169, 0.7);
 }
