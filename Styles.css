@@ -16,9 +16,10 @@ li, a, button{
 }
 .Top-header{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 40px 10%;
+    padding: 30px 10%;
+    word-spacing: 16px;
 }
 
 .LOGO{
@@ -39,17 +40,4 @@ li, a, button{
 
 .Nav_Links li a:hover{
     color: #18A8D8;
-}
-
-button{
-    padding: 8px 25px;
-    background-color: rgba(0, 136, 169, 1);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0.07s;
-}
-
-button:hover{
-    background-color: rgba(0, 136, 169, 0.7);
 }
